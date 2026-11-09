@@ -8,21 +8,21 @@ A lightweight Windows utility for monitoring and managing the Windows Print Spoo
 
 **Dark Mode**
 
-![DPrint Spooler Manager - Dark Mode](screenshots/main-dark.png)
+<img src="screenshots/main-dark.png" width="500">
 
 **Light Mode**
 
-![DPrint Spooler Manager - Light Mode](screenshots/main-light.png)
+<img src="screenshots/main-light.png" width="500">
 
 ### Activity Log
 
 **Dark Mode**
 
-![Activity Log - Dark Mode](screenshots/activity-log-dark.png)
+<img src="screenshots/activity-log-dark.png" width="350">
 
 **Light Mode**
 
-![Activity Log - Light Mode](screenshots/activity-log-light.png)
+<img src="screenshots/activity-log-light.png" width="350">
 
 > **Project status:** v1.0 baseline  
 > **Platform:** Windows  
