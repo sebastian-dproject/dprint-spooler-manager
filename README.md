@@ -2,6 +2,28 @@
 
 A lightweight Windows utility for monitoring and managing the Windows Print Spooler service and print queues.
 
+## Screenshots
+
+### Main Window
+
+**Dark Mode**
+
+![DPrint Spooler Manager - Dark Mode](screenshots/main-dark.png)
+
+**Light Mode**
+
+![DPrint Spooler Manager - Light Mode](screenshots/main-light.png)
+
+### Activity Log
+
+**Dark Mode**
+
+![Activity Log - Dark Mode](screenshots/activity-log-dark.png)
+
+**Light Mode**
+
+![Activity Log - Light Mode](screenshots/activity-log-light.png)
+
 > **Project status:** v1.0 baseline  
 > **Platform:** Windows  
 > **Framework:** WPF / .NET 10
