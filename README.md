@@ -92,12 +92,25 @@ The application requests Administrator permission at startup because some operat
 ```text
 .
 ├── Models/
+│   └── PrintJob.cs
 ├── Services/
+│   ├── PrintQueueService.cs
+│   └── SpoolerService.cs
+├── AboutWindow.xaml
+├── AboutWindow.xaml.cs
 ├── App.xaml
-├── MainWindow.xaml
+├── App.xaml.cs
 ├── LogWindow.xaml
+├── LogWindow.xaml.cs
+├── MainWindow.xaml
+├── MainWindow.xaml.cs
 ├── DPrintSpoolerManager.csproj
-└── DPrintSpoolerManager.ico
+├── DPrintSpoolerManager.ico
+├── LICENSE
+├── NOTICE
+├── TRADEMARKS.md
+├── CHANGELOG.md
+└── README.md
 ```
 
 The project and C# namespace use the `DPrintSpoolerManager` identity. The user-facing product and executable name are **DPrint Spooler Manager**.
