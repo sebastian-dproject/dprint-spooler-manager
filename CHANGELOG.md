@@ -15,7 +15,7 @@ All notable changes to DPrint Spooler Manager are documented in this file.
 - WPF application for Windows Print Spooler and print queue management.
 - Start, stop, and restart the Print Spooler service.
 - Monitor print jobs with automatic refresh.
-- Remove a selected print job, clear a selected printer queue, or clear all queues.
+- - Remove a selected print job or clear all print jobs across all printers.
 - Separate Activity Log window.
 - Dark Modern and Light themes.
 - Manual refresh and automatic refresh toggle.
