@@ -1,10 +1,27 @@
 # DPrint Spooler Manager
 
+<p align="center">
+
 A lightweight Windows utility for monitoring and managing the Windows Print Spooler service and print queues.
 
-> **Project status:** v1.0.1  
-> **Platform:** Windows  
-> **Framework:** WPF / .NET 10
+</p>
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/Latest-v1.0.1-blue" alt="Latest Version">
+<img src="https://img.shields.io/badge/Platform-Windows%20x64-blue" alt="Platform">
+<img src="https://img.shields.io/badge/Framework-WPF%20%7C%20.NET%2010-purple" alt="Framework">
+<img src="https://img.shields.io/badge/License-Apache%202.0-green" alt="License">
+
+</p>
+
+<p align="center">
+
+<a href="https://github.com/sebastian-dproject/dprint-spooler-manager/releases/tag/v1.0.1">
+<img src="https://img.shields.io/badge/Download-DPrint%20Spooler%20Manager%20v1.0.1-brightgreen?style=for-the-badge&logo=windows" alt="Download DPrint Spooler Manager">
+</a>
+
+</p>
 
 ## Features
 
@@ -21,11 +38,36 @@ A lightweight Windows utility for monitoring and managing the Windows Print Spoo
 - Sort print queue columns.
 - View application version, author credits, acknowledgements, and license in the About window.
 
+## Screenshots
+
+### Main Window
+
+<p align="center">
+  <img src="screenshots/main-dark.png" width="40%" alt="Main Window - Dark Mode">
+  <img src="screenshots/main-light.png" width="40%" alt="Main Window - Light Mode">
+</p>
+
+### Activity Log
+
+<p align="center">
+  <img src="screenshots/activity-log-dark.png" width="40%" alt="Activity Log - Dark Mode">
+  <img src="screenshots/activity-log-light.png" width="40%" alt="Activity Log - Light Mode">
+</p>
+
 ## Requirements
 
-- Windows 10 or later (the app uses Windows-specific print and service APIs).
-- .NET 10 SDK to build from source.
+### To run
+
+- Windows 10 or later.
+- Windows x64 architecture.
 - Administrator privileges for service control and print-job deletion.
+
+The portable release is self-contained and does not require a separate .NET Runtime installation.
+
+### To build from source
+
+- .NET 10 SDK.
+- Windows environment.
 
 ## Build and run
 
@@ -45,10 +87,6 @@ The application requests Administrator permission at startup because some operat
 - The application uses `ServiceController` to control the Windows Print Spooler service.
 - Clearing or deleting print jobs is destructive: pending jobs may be permanently removed. Review the selected action and confirmation prompt before proceeding.
 - The sort arrow indicator in the queue table header is a known visual issue in this baseline. Column sorting itself is available; the indicator may not be visible.
-
-## Screenshots
-
-Application screenshots are available in the repository README.
 
 ## Project structure
 
@@ -82,3 +120,15 @@ Published under the **DProject** identity.
 Developed by **Sebastian**, with assistance from **OpenAI ChatGPT** during learning, design, and development. DPrint is an independent project; this acknowledgement does not imply endorsement by OpenAI.
 
 Copyright © 2026 Sebastian.
+
+## Download
+
+**Latest version: v1.0.1**
+
+[Download DPrint Spooler Manager for Windows x64](https://github.com/sebastian-dproject/dprint-spooler-manager/releases/tag/v1.0.1)
+
+Download the ZIP package, extract it, and run `DPrint Spooler Manager.exe`.
+
+No installer or separate .NET Runtime installation required.
+
+For previous versions and source code, visit [GitHub Releases](https://github.com/sebastian-dproject/dprint-spooler-manager/releases).
