@@ -1,7 +1,17 @@
 # Changelog
 
+All notable changes to DPrint Spooler Manager are documented in this file.
+
+## [1.0.1] - 2026-11-10
+
+### Added
+- About window with author, acknowledgement, version, and license information.
+- Windows executable metadata for product, company, authorship, and copyright.
+- DProject publisher identity in application metadata and project documentation.
+
 ## [1.0.0] - Baseline
 
+### Added
 - WPF application for Windows Print Spooler and print queue management.
 - Start, stop, and restart the Print Spooler service.
 - Monitor print jobs with automatic refresh.
@@ -11,11 +21,9 @@
 - Manual refresh and automatic refresh toggle.
 - Queue table sorting and native scrollbars.
 
-### Known issues
-
+### Known Issues
 - The queue table's sort-direction indicator is not visibly rendered in the current baseline. Sorting itself remains available.
 
 ## [Unreleased]
 
-- Public repository preparation and DPrint branding.
-- Documentation and release assets.
+- Future changes and improvements.

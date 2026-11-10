@@ -7,11 +7,15 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <ApplicationIcon>DPrintSpoolerManager.ico</ApplicationIcon>
-    <Version>1.0.0</Version>
-    <AssemblyVersion>1.0.0.0</AssemblyVersion>
-    <FileVersion>1.0.0.0</FileVersion>
+    <Version>1.0.1</Version>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <FileVersion>1.0.1.0</FileVersion>
     <AssemblyName>DPrint Spooler Manager</AssemblyName>
     <Product>DPrint Spooler Manager</Product>
+    <Company>Dproject</Company>
+    <Authors>Sebastian</Authors>
+    <Copyright>Copyright © 2026 Sebastian</Copyright>
+    <InformationalVersion>1.0.1</InformationalVersion>
     <Description>A lightweight Windows utility for monitoring and managing the Windows Print Spooler service and print queues.</Description>
   </PropertyGroup>
 
