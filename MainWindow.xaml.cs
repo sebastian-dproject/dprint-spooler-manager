@@ -279,6 +279,15 @@ public partial class MainWindow : Window
 
     private bool _isDarkTheme = true;
 
+    private void AboutButton_Click(object sender, RoutedEventArgs e)
+    {
+        var aboutWindow = new AboutWindow
+        {
+            Owner = this
+        };
+        aboutWindow.ShowDialog();
+    }
+
     private void ThemeToggleButton_Click(object sender, RoutedEventArgs e)
     {
         _isDarkTheme = !_isDarkTheme;
