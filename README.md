@@ -27,12 +27,11 @@ A lightweight Windows utility for monitoring and managing the Windows Print Spoo
 
 - View the Windows Print Spooler service status.
 - Start, stop, and restart the Print Spooler service.
-- Monitor print jobs with automatic refresh (3-second interval).
+- Monitor print jobs with automatic refresh (30-second interval).
 - Manually refresh the print queue.
 - View printer, document, user, status, page count, and submission time.
-- Remove only the selected print job.
-- Clear all jobs for the selected printer.
-- Clear all print queues.
+- Remove the selected print job.
+- Clear all print jobs from all printers.
 - View the activity log in a separate window.
 - Switch between Dark and Light themes.
 - Sort print queue columns.
